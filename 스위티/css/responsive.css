@@ -1,0 +1,269 @@
+@media screen and (max-width:1280px) {
+
+.wrap{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -ms-overflow-style: none;
+}
+
+header{
+}
+header .logo{
+  margin-left: 10px;
+}
+header .logo img{
+  width: 80%;
+}
+.menu{width: 90%;}
+  
+.mega_menu{width: 90%;}
+  /* main_section */
+  .main_section .wrap{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    align-items: center;
+  }
+  .main_section .wrap .text{
+    text-align: center;
+  }
+  .main_section .images img{
+width: 90%;
+  }
+  .main_ice img{
+    width: 95%;
+  }
+  /* best_section */
+  .best_section .wrap{
+    width: 98%;
+  }
+  .best_section .wrap .contents{
+    width: 90%;
+  }
+  .product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* about_section */
+.about_explan{
+height: 500px;}
+.text_box h3 {
+font-size: 25px;}
+.about_explan .img_box {
+width: 400px;
+height: 400px;
+}
+.cowbg {
+position: relative;
+}
+.about_section h1,.about_section p {
+  margin: 0 auto;
+}
+/* explan_section */
+.explan_section{
+  margin: 0 auto;
+  background: url(../img/responbg\ \(2\).png);
+  height: 3600px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 300px;
+}
+.explan_section .content1 {
+  height: 750px;
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.explan_section .explan h1{
+  margin-top: 0;
+}
+.explan_section .content1 a::before{
+  content: url(../img/exicon1.png);
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  opacity: 0;
+  transition: 0.3s;
+ }
+ .explan_section .content1 .text{
+ margin-top: 50px;
+  transform: translateX(60%);
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+  margin-left: 30px;
+   }
+   .explan_section .content2 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.explan_section .content2 {
+    width: 80%;
+    height: 800px;
+}
+.explan_section .content2 img {
+  width: 74%;}
+  .explan_section .content2 .text{
+    transform: translateX(80%);
+    text-align: center;
+    margin-top: 50px;
+  }
+  .explan_section .content2 a::after{
+    content: url(../img/exicon2.png);
+    position: absolute;
+    right: 32%;
+    top: 35%;
+    opacity: 0;
+    transition: 0.3s;
+   }
+   .explan_section .content3{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    align-items: center;
+   }
+   .explan_section .content3 img{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+   }
+   .explan_section .content3 .text {
+    transform: translateY(5%);}
+    .explan_section .content3 a::before{
+      content: url(../img/exicon3.png);
+      position: absolute;
+      left: 65%;
+      bottom: 30%;
+      opacity: 0;
+      transition: 0.3s;
+    }
+  /* footer */}
+
+
+
+@media screen and (max-width:1024px) {
+
+  
+}
+@media screen and (max-width:768px) {
+  header .icon {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+}
+.menu{
+  display: none;
+}
+header .logo img {
+  width: 64%;
+}
+header {height: 140px;}
+#top_btn img {width: 30%;}
+#top_btn{right: 0;}
+.main_section .images img {width: 100%;}
+.main_ice {width: 95%;}
+.main_section .wrap .text h1 {font-size:57px;}
+.main_section .wrap .text p {font-size: 17px;}
+.product{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.best_section .wrap .text h1 {
+font-size: 58px;}
+.best_section .wrap {
+height: 1579px;}
+.best_section .wrap .text p {
+font-size: 22px;
+}
+.cow2, .cow1{
+width: 10%;
+}
+.about_section h1 {
+font-size: 63px;}
+.about_explan .img_box {
+width: 300px;
+ height: 300px;
+}
+.about_explan_inner{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.about_explan {
+  height: 1000px;
+  position: relative;
+}
+.about_explan .img_box {
+top: 20%;
+right: 5%;}
+.about_explan_inner .text_box{
+position: absolute;
+height: 30%;
+width: 100%;
+top: 53%;
+left: 10%;
+}
+.explan_section .explan h1 {
+font-size: 50px;}
+.explan_section .explan p {
+font-size: 20px;
+}
+.content1 img{
+width: 40%;
+}
+.explan_section .content1 .text{
+margin-top: 50px;
+transform: translateX(70%);
+padding: 20px;
+width: 40%;
+text-align: center;
+margin-left: 30px;
+}
+.explan_section .content2 img {
+  width: 41%;
+  margin-right: 200px;
+}
+.explan_section .content2 .text{
+  transform: translateX(90%);
+  text-align: center;
+  margin-top: 50px;
+}
+.explan_section .content3 img {
+  width: 41%;
+  margin-left: 300px;
+}
+.explan_section .content1 a::before{
+  content: url(../img/exicon1.png);
+  position: absolute;
+  top: 8%;
+  left: 30%;
+  opacity: 0;
+  transition: 0.3s;
+ }
+ .explan_section .content3 a::before{
+  content: url(../img/exicon3.png);
+  position: absolute;
+  left: 60%;
+  bottom: 35%;
+  opacity: 0;
+  transition: 0.3s;
+}footer .copy h5 {
+  color: #595959;
+  font-family: 'BMJUA';
+  line-height: 1.2;
+  font-size: 5px;
+}
+footer {
+  height: 124px;}
+  .sns a img{
+    width: 80%;
+  }
+  .explan_section {height: 3205px;}
+}

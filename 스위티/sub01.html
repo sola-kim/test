@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스위티</title>
+  <!--타이틀-->
+  <link rel="shortcut icon" type="images" href="img/title.png">
+    <!--css-->
+    <link rel="stylesheet" href="css/sub01.css">
+    <!--responsive-->
+    <link rel="stylesheet" href="css/responsive_sub01.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+      </div>
+      <div class="nav">
+        <div class="icon">
+          <input type="search" placeholder="검색어를 입력해주세요." id="search_input">
+          <a href="#none"><img src="img/icon01.png" alt="icon01" id="search"></a>
+          <a href="#none"><img src="img/icon02.png" alt="icon02" id="login_go"></a>
+          <a href="#none"><img src="img/icon03.png" alt="icon03"></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="sub01.html">브랜드</a>
+            <div class="mega_menu">
+              <div class="inner_mega_menu">
+                <a href="#none"><p>브랜드 소개</p></a>
+                <a href="#none"><p>브랜드 로고</p></a>
+                <a href="#none"><p>브랜드 연혁</p></a>
+                <a href="#none"><p>오시는길</p></a>
+              </div>
+  
+              <div class="inner_mega_menu">
+                <a href="#none"><p>베스트 메뉴</p></a>
+                <a href="#none"><p>이달의 메뉴</p></a>
+              </div>
+  
+              <div class="inner_mega_menu">
+                <a href="#none"><p>기본 메뉴</p></a>
+                <a href="#none"><p>이벤트 메뉴</p></a>
+                <a href="#none"><p>시즌 메뉴</p></a>
+              </div>
+  
+              <div class="inner_mega_menu">
+                <a href="#none"><p>서울 매장</p></a>
+                <a href="#none"><p>대전 매장</p></a>
+                <a href="#none"><p>인천 매장</p></a>
+                <a href="#none"><p>가맹점 문의</p></a>
+              </div>
+  
+              <div class="inner_mega_menu">
+                <a href="#none"><p>이벤트</p></a>
+                <a href="#none"><p>당첨조회</p></a>
+                <a href="#none"><p>문의사항</p></a>
+              </div>
+            </div></li>
+            <li><a href="#none">베스트</a></li>
+            <li><a href="sub02.html">모두보기</a></li>
+            <li><a href="#none">매장정보</a></li>
+            <li><a href="#none">이벤트</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="main_section">
+      <div class="fresh">
+        <div class="text_box">
+          <h2>신선한 아이스크림</h2>
+          <p>스위티는 초지에서 방목하여 키운 젖소의 우유로<br>
+          만든 친환경 아이스크림 브랜드 입니다.<br><br>
+        매일 아침 갓 짜는 우유를 공수하여 신선한 상태로<br>아이스크림을 제조합니다.</p>
+        </div>
+        <div class="img_box">
+          <img src="img/sub01cow.png" alt="subcow">
+        </div>
+      </div>
+      <div class="clean">
+        <div class="img_box">
+          <img src="img/sub01clean.png" alt="clean">
+        </div>
+        <div class="text_box">
+          <h2>깨끗한 아이스크림</h2>
+          <p>목장에서 가져온 우유는 공장에서<br>
+          저온살균 및 균질화를 시킵니다.<br><br>
+        목장에서 공장으로 오는 동안에도<br>
+        대형 냉동탑차에서 5도씨 이하에서 보관되어<br>신선함을 유지합니다.</p>
+        </div>
+      </div>
+      <div class="health">
+        <div class="text_box">
+          <h2>건강한 아이스크림</h2>
+          <p>스위티는 설탕과 인공감미료 없이<br>
+          과일로만 단맛과 향을 제공합니다.<br><br>
+       남녀노소 누구나 즐길 수 있는<br>스위티 아이스크림.<br><br>걱정없이 즐겨보세요.</p>
+        </div>
+        <div class="img_box">
+          <img src="img/sub01health.png" alt="health">
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+      </div>
+      <div class="copy">
+        <h5>상호명 : 스위티 ㅣ 대표 : 김솔아 ㅣ 주소 : 대전광역시 어딘가 123-45<br>
+        COPYRIGHT 스위티.ALL RIGHTS RESERVED.</h5>
+      </div>
+      <div class="sns">
+        <ul>
+          <li><a href="#none"><img src="img/sns01.png" alt="sns01"></a></li>
+          <li><a href="#none">
+            <img src="img/sns02.png" alt="sns02">
+          </a></li>
+          <li><a href="#none">
+            <img src="img/sns03.png" alt="sns03">
+          </a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <button id="top_btn">
+    <img src="img/topbtn.png" alt="topbtn">
+  </button>
+<!--모달-->
+<div class="modal">
+  <div class="modal_inner">
+    <h1>로그인</h1>
+    <form action="login">
+      <div class="email box">
+      <input type="email" id="email" required>
+      <label for="email"><span>이메일</span></label>
+    </div>
+    <div class="password box">
+      <input type="password" id="password" required>
+      <label for="password"><span>비밀번호</span></label>
+    </div>
+    <input type="button" value="로그인" id="login_btn">
+    <input type="button" value="회원가입" id="login_btn">
+    </form>
+  </div>
+</div>
+
+  <!--제이쿼리 cdn-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<!--javascripte-->
+<script src="js/js.js"></script>
+<script>
+$(window).scroll(function(){
+let TOP = $(window).scrollTop();
+//fresh
+if(TOP>50){
+  $('.fresh').stop().animate({opacity: 1},300);
+}else{
+  $('.fresh').stop().animate({opacity: 0},300);
+}
+//clean
+if(TOP>650){
+  $('.clean').stop().animate({opacity:1},300);
+}else{
+  $('.clean').stop().animate({opacity:0},300);
+}
+//health
+if(TOP>1750){
+  $('.health').stop().animate({opacity:1},300);
+}else{
+  $('.health').stop().animate({opacity:0},300);
+}
+
+});
+</script>
+</body>
+</html>

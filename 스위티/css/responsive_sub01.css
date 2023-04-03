@@ -1,0 +1,123 @@
+@media screen and (max-width:1280px){
+
+  header .logo{
+    margin-left: 10px;
+  }
+  header .logo img{
+    width: 80%;
+  }
+  .menu{width: 90%;}
+    
+  .mega_menu{width: 90%;}
+  .main_section>div {
+   width: 1000px;}
+  .text_box p {
+  font-size: 16px;}
+
+.clean .img_box img{
+ width: 90%;
+}
+.health .img_box img{
+  width: 90%;
+}
+}
+
+
+@media screen and (max-width:768px){
+  header .icon {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+}
+.menu{
+  display: none;
+}
+header .logo img {
+  width: 64%;
+}
+header {height: 140px;}
+#top_btn img {width: 30%;}
+#top_btn{right: 0;}
+.fresh .img_box img{
+  width: 70%;
+}
+.fresh{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.fresh .text_box{
+  position: absolute;
+  left: 30%;
+}
+.fresh .text_box h2,.fresh .text_box p{
+  color: #333;
+}
+.fresh .text_box h2{
+  font-size: 40px;
+}
+.fresh .img_box{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+.clean{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.clean .text_box{
+  position: absolute;
+  top: -20%;
+  left: 10%;
+}
+.clean .text_box h2,.clean .text_box p{
+  color: #333;
+}
+.clean .text_box h2{
+  font-size: 40px;
+}
+.clean .img_box{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+.clean .img_box img{
+  width: 80%;
+}
+.health{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.health .text_box{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.health .text_box h2,.health .text_box p{
+  color: #333;
+}
+.health .text_box h2{
+  font-size: 40px;
+}
+.health .img_box{
+  position: absolute;
+  left: 30%;
+  bottom:5%;
+}
+.health .img_box img{
+  width: 50%;
+}
+footer .copy h5 {
+  color: #595959;
+  font-family: 'BMJUA';
+  line-height: 1.2;
+  font-size: 5px;
+}
+footer {
+  height: 124px;}
+  .sns a img{
+    width: 80%;
+  }
+}
